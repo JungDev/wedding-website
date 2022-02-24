@@ -214,8 +214,8 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== '18230983ead724a67a8e3a1c708d4b72'
-            && MD5($('#invite_code').val()) !== '18230983ead724a67a8e3a1c708d4b72') {
+        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
+            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
 			$.post('https://script.google.com/macros/s/AKfycbwA4wxd-um0VEzt04Luc-MAaYAe0pKQvab-gOWbaDsg7ZLvaQ7IoAumwjGA34XwRQ7K/exec',data)
@@ -241,8 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-	//Popilia+Country+Resort/@38.7502346,16.2114719,17.75z
-    var location = {lat: 38.7502346, lng: 16.2114719};
+    var location = {lat: 22.5932759, lng: 88.27027720000001};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
