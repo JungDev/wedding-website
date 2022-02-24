@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 // Imports
 //@import "compass";
-@import "partials/typography";
+@import "node_modules/partials/typography";
 @import "partials/buttons";
 @import "partials/colors";
 @import "partials/layout";
@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/hero-min.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -318,7 +318,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 38px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
