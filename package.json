@@ -1,31 +1,34 @@
 {
   "name": "wedding-website",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pwa": "pwa-asset-generator img/logo.png ./pwa_assets -i ./index.html -m ./manifest.json --dark-mode --background dimgrey"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:rampatra/wedding-website.git"
+    "url": "git+ssh://git@github.com:lbouriez/wedding-website.git"
   },
   "keywords": [
     "wedding",
     "template",
     "website template"
   ],
-  "author": "Ram Patra",
+  "author": "Ram Patra & Adapted by WeeBoo",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/rampatra/wedding-website",
+  "homepage": "https://github.com/lbouriez/wedding-website",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-rename": "^1.4.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "pwa-asset-generator": "^6.0.5",
+    "uglify-js": "^3.11.2"
   },
   "dependencies": {
-    "animate.css": "^3.7.2",
+    "animate.css": "^4.1.0",
     "font-awesome": "^4.7.0",
     "waypoints": "^4.0.1"
   }

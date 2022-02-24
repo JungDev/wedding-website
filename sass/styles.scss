@@ -17,6 +17,13 @@ Global Styles
   display: table;
   clear: both;
 }
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
+}
 .no-padding {
   padding: 0;
 }
@@ -32,9 +39,16 @@ a {
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color;
 }
+P {
+  color: black;
+}
+.aAsp {
+  @extend p;
+}
 a:hover, a:focus {
   color: $accent-color-hover;
   text-decoration: none;
+  cursor:pointer;
 }
 body {
   font-family: $sans-serif;
@@ -104,6 +118,25 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+/* ==========================================================================
+Honey Moon
+========================================================================== */
+#gift {
+  .btnForceFocus {
+    @extend .btn:focus;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+#dc-modal {
+  img {
+    border-radius: 30px;
+    vertical-align: middle;
+    opacity:0.8;
+  }
+}
+
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -318,7 +351,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 39px;
+    height: 19px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -326,6 +359,7 @@ header {
 
     li {
       display: inline;
+      font-weight: bold;
 
       a {
         color: $txt-light;
@@ -343,6 +377,7 @@ header {
   ul.member-actions {
     li {
       display: inline;
+      font-weight: bold;
 
       a {
         color: $txt-light;
@@ -656,7 +691,7 @@ Instagram
 /* ==========================================================================
 Engagement Pics
 ========================================================================== */
-#eng-pics {
+#hotels {
   img {
     width: 100%;
     height: auto;
@@ -743,7 +778,7 @@ Embed video
   letter-spacing: 10px;
 }
 #video-content p {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 /* ==========================================================================
@@ -821,7 +856,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, .fa-key, .fa-fish {
         font-size: 14px;
         position: absolute;
         top: 50%;
