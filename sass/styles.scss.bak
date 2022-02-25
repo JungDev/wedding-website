@@ -304,6 +304,7 @@ Hero
   h1 {
     color: $txt-light;
     margin-bottom: 40px;
+	font-family: 'Allison', cursive;
   }
   p.intro {
     color: $txt-light;
@@ -953,3 +954,6 @@ Logo middle
     position: absolute;
     left: -50%;
 }
+
+
+
