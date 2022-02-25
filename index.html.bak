@@ -12,12 +12,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title data-translatable>Laurent & Giulia's wedding // Laurent & Giulia se marient // Laurent & Giulia si sposano
+    <title data-translatable>Domenica & Francesco's wedding 
     </title>
     <meta name="description" content="You are invited to our big day.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Laurent & Giulia's wedding'">
+    <meta property="og:title" content="Domenica & Francesco's wedding'">
     <meta property="og:description" content="You are invited to our big day.">
     <meta property="og:type" content="website">
     <!-- Chrome for Android theme color -->
@@ -28,7 +28,7 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Laurent & Giulia's wedding'">
+    <meta name="application-name" content="Domenica & Francesco's wedding'">
 
     <!-- Add to homescreen for Safari on iOS -->
 
@@ -120,11 +120,24 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
+     
     <section class="hero">
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="img/logo.png" class="pulse2" alt="Logo"></a></div>
+                    <div class="logo-container" style="
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    width: 3.125rem;
+    bottom: -1.5rem;
+    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+"><div class="logo" style="
+    position: absolute;
+    left: -50%;
+"><a href="#"><img src="img/logo.png" class="pulse2" alt="Logo"></a></div></div>
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
@@ -137,12 +150,12 @@
                                 <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Glimpse of the
                                         city</a></li>
                                 <li>
-                                    <a class="flag-icon flag-icon-fr" onclick="i18n.changeLanguage('fr');"
-                                        data-toggle="tooltip" data-placement="top" title="Site en Francais"></a>
-                                    <a class="flag-icon flag-icon-gb" onclick="i18n.changeLanguage('en');"
-                                        data-toggle="tooltip" data-placement="top" title="Website in English"></a>
                                     <a class="flag-icon flag-icon-it" onclick="i18n.changeLanguage('it');"
                                         data-toggle="tooltip" data-placement="top" title="Sito web in Italiano"></a>
+                                    <a class="flag-icon flag-icon-gb" onclick="i18n.changeLanguage('en');"
+                                        data-toggle="tooltip" data-placement="top" title="Website in English"></a>
+                                    <a class="flag-icon flag-icon-fr" onclick="i18n.changeLanguage('fr');"
+                                        data-toggle="tooltip" data-placement="top" title="Site en Francais"></a>
                                 </li>
                             </ul>
                             <ul class="member-actions">
@@ -162,8 +175,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
-                        <!--<h1>Laurent and Giulia</h1>-->
-                        <img src="img/logo-lg.png">
+                        <h1>Domenica &amp; Francesco</h1>
+                        <!--<img src="img/logo-lg.png">-->
                         <!--<p class="intro">Laurent & Giulia are getting hitched!</p>-->
                         <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
                     </div>
@@ -186,18 +199,17 @@
                     <h3 data-translatable>We are getting married! // On se marie ! // Ci sposiamo!</h3>
                     <p data-translatable>
                         <span>
-                            The date is the <strong>19<sup>th</sup> of July 2019</strong> and we would like you to be a
+                            The date is the <strong>02<sup>th</sup> of July 2022</strong> and we would like you to be a
                             part of it.<br>
                             Official invite will follow.
                         </span>
                         <span>
-                            La date est le <strong>19 Juillet 2019</strong> et nous souhaiterions partager ce moment
+                            La date est le <strong>02 Juillet 2019</strong> et nous souhaiterions partager ce moment
                             avec vous.<br>
                             Les faire-parts seront expédiés prochainement.
                         </span>
                         <span>
-                            La data è il <strong>19 Luglio 2019</strong> e vorremmo avervi con noi.<br>
-                            Le partecipazioni verranno spedite prossimamente.
+                            La data è il <strong>02 Luglio 2022</strong> e vorremmo avervi con noi.<br>
                         </span>
                     </p>
                     <div class="share-bar"></div>
@@ -369,11 +381,6 @@
                                     Nom: Laurent Bouriez</p>
                             </div>
                         </div>
-
-                        <p class="unselectable" unselectable="on" onselectstart="return false;"
-                            onmousedown="return false;"><strong>Canada (Interac)</strong><br>
-                            laurent<i class="fas fa-at"></i>bouriez.org<br>
-                        </p>
                         <p data-translatable>
                             <span></span>
                             <span>
@@ -417,7 +424,7 @@
             </div>
         </div>
     </section>
-
+<!--
     <section id="hotels" class="section-padding">
         <div class="container-fluid">
             <div class="row">
@@ -459,18 +466,6 @@
                     <p>12 minutes by <i class="fa fa-car"></i></p>
 
                 </div>
-                <!-- <div class="col-md-2">
-                <a data-fancybox data-type="iframe" data-options='{"iframe" : {"css" : {"width" : "80%", "height" : "80%"}}}' href="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1414.0294084099476!2d8.485530108271288!3d44.86109739477461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x47879ce33a3cbf11%3A0x8c87678604453e27!2sAlbergo+ristorante+%22da+Tunon%22%2C+Via+Dante+Alighieri%2C+Oviglio%2C+Alexandrie%2C+Italie!3m2!1d44.8610197!2d8.4879933!4m5!1s0x47879ce4ac9822ef%3A0x17f2df38402cf792!2sOviglio%2C+15026+Alexandrie%2C+Italie!3m2!1d44.8606098!2d8.4852071!5e0!3m2!1sfr!2sca!4v1548910647355" class="fancybox">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <img src="img/hotels/datunon.jpg" alt=""/>
-                    </div>
-                    <a href="http://www.booking.com/Share-6zZXyB" target="_blank" class="aAsp"><strong>Da Tunon</strong></a>
-                    <p>5 minutes <i class="fa fa-walking"></i></p>
-                </a>
-            </div> -->
                 <div class="col-md-2">
                     <a data-fancybox data-type="iframe" data-options="{" iframe" : {"css" {"width" "80%"
                         , "height" "80%" }}}"
@@ -562,9 +557,9 @@
                 <div class="ring"></div>
             </div>
         </div>
-    </div>-->
+    </div>
     </section>
-
+-->
     <section id="video-bg" class="hidden-sm hidden-xs">
         <div id="bgndVideo" class="player"
             data-property="{videoURL:'https://youtu.be/ZMXj4Y1XSBw',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:5, stopAt:139, opacity:1}">
@@ -641,7 +636,7 @@
                             <p data-translatable>
                                 <span>We are glad to see you join us on our big day.</span>
                                 <span>Nous sommes heureux de vous recevoir pour notre grande journée.</span>
-                                <span>Siamo contenti di vedervi per il nostro grande jorno.</span>
+                                <span>Siamo contenti di vedervi per il nostro grande giorno.</span>
                             </p>
                             <div id="add-to-cal"></div>
                         </div>
@@ -656,10 +651,9 @@
                     <h3>RSVP</h3>
                     <p data-translatable>
                         <span>We would greatly appreciate if you could RSVP before the <strong>1<sup>st</sup> of
-                                June</strong> 2019</span>
-                        <span>Merci de nous faire parvenir votre réponse avant le <strong>1<sup>er</sup> Juin</strong>
-                            2019</span>
-                        <span>Vi saremmo grati se poteste rispondere entro il <strong>1 Giugno</strong> 2019</span>
+                                June</strong></span>
+                        <span>Merci de nous faire parvenir votre réponse avant le <strong>1<sup>er</sup> Juin</strong></span>
+                        <span>Vi saremmo grati se poteste rispondere entro il <strong>1 Giugno</strong></span>
                     </p>
                     <form id="rsvp-form" class="rsvp-form" action method="POST">
                         <div class="row">
@@ -679,12 +673,12 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
                                     <i class="fa fa-users"></i><input type="number" name="extras" class min="0" max="8"
-                                        placeholder="Husband/Femme or bambini" required>
+                                        placeholder="Numero complessivo di presenze" required>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
-                                    <i class="fa fa-fish"></i><input name="allergy" class placeholder="Allergy">
+                                    <i class="fa fa-fish"></i><input name="allergy" class placeholder="Segnalaci allergie">
                                 </div>
                             </div>
                             <!-- <div class="col-md-6 col-sm-6">
@@ -694,7 +688,7 @@
                                                                 placeholder="Invite code"
                                                                 required>
                             </div>
-                        </div> -->
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-md-12" id="alert-wrapper"></div>
@@ -715,7 +709,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center content">
                     <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                    <p>Created by Laurent with lots of <span class="fa fa-heart pulse2"></span> for Giulia</p>
+                    <p>Created by Francesco with lots of <span class="fa fa-heart pulse2"></span> for Domy</p>
                 </div>
             </div>
         </div>

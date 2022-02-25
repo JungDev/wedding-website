@@ -206,6 +206,7 @@ Waypoinsts
   visibility: visible
 }
 
+
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -303,6 +304,7 @@ Hero
   h1 {
     color: $txt-light;
     margin-bottom: 40px;
+	font-family: 'Allison', cursive;
   }
   p.intro {
     color: $txt-light;
@@ -934,3 +936,24 @@ body.modal-open {
 .modal-body {
   padding:25px;
 }
+
+/* ==========================================================================
+Logo middle
+========================================================================== */
+.logo-container{
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    width: 3.125rem;
+    bottom: -1.5rem;
+    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+}
+.logo-container .logo{
+    position: absolute;
+    left: -50%;
+}
+
+
+
