@@ -324,10 +324,11 @@ Hero
 }
 .navigation {
   transition: all 300ms ease-in-out;
-  background-color: rgb(205 175 64 / 60%);
+  background-color: rgba(205, 175, 64, .60);
   position: fixed;
   width: 100%;
   z-index: 999;
+  height: 100px;
 }
 .fixed {
   position: fixed;
@@ -360,7 +361,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 39px;
+    height: 59px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -950,7 +951,7 @@ Logo middle
 .logo-container{
     position: absolute;
     left: 50%;
-    top: 80px;
+    top: 69px;
     width: 3.125rem;
     bottom: -1.5rem;
     transition: opacity 0.5s ease-in-out;

@@ -328,6 +328,7 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
+  height: 100px;
 }
 .fixed {
   position: fixed;
@@ -360,7 +361,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 39px;
+    height: 59px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -805,7 +806,7 @@ Google map
 #map-content {
   margin-top: 40px;
   padding: 50px 60px;
-  background: #fff;
+  background-color: whitesmoke;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
 }
@@ -950,7 +951,7 @@ Logo middle
 .logo-container{
     position: absolute;
     left: 50%;
-    top: 80px;
+    top: 69px;
     width: 3.125rem;
     bottom: -1.5rem;
     transition: opacity 0.5s ease-in-out;
