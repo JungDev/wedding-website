@@ -301,7 +301,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                     <div class="wp3">
-                        <h5>Cerimonia <span class="time">4:30PM</span></h5>
+                        <h5>Cerimonia <span class="time">5:30PM</span></h5>
                         <p>
                             <span>Cérémonie à l'Eglise d'Oviglio</span>
                             <br>
@@ -361,10 +361,9 @@
                                 plage!
                             </span>
                             <span>
-                                Viviamo insieme da ormai tre anni, e, come potete immaginare, abbiamo già tutto il
+                                Viviamo insieme gi&agrave; da cinque anni, e, come potete immaginare, abbiamo già tutto il
                                 necessario per la casa!<br>
-                                Al posto della classica lista di nozze, potrete invece contribuire a rendere il nostro
-                                viaggio di nozze indimenticabile!<br>
+                                Al posto della classica lista di nozze, potrete invece contribuire a rendere la nostra luna di miele indimenticabile!<br>
                                 Abbiamo scelto di dedicare una settimana all’esplorazione e una al relax su una delle
                                 spiagge più belle al mondo!
                             </span>
@@ -377,8 +376,8 @@
                                     onmousedown="return false;"><strong>Europe (Transfer)</strong><br>
                                     Iban: <img src="img/begin.png" width="200px"><img src="img/end.png"
                                         width="89px"><br>
-                                    BIC: BNPA FR PP XXX<br>
-                                    Nom: Laurent Bouriez</p>
+                                    
+                                    Intestatario: Francesco Scarlato</p>
                             </div>
                         </div>
                         <p data-translatable>
@@ -412,8 +411,8 @@
                         // Una foto vale un milione di parole !</h3>
                     <p>
                         Capture the moment, tag your photos with the hashtag <a
-                            href="https://www.instagram.com/explore/tags/laurentandgiulia/"
-                            target="_blank">#LaurentAndGiulia</a>
+                            href="https://www.instagram.com/explore/tags/dandf/"
+                            target="_blank">#DAndF</a>
                     </p>
                 </div>
             </div>
@@ -581,7 +580,7 @@
         <div class="text-center">
             <h3 data-translatable>How do I get there? // Comment venir ? // Come arrivare ?</h3>
             <p data-translatable>It's way easier than you think! // C'est bien plus simple que ce que vous pensez ! //
-                Facilissimo</p>
+                Vi consigliamo di raggiungere la location seguendo le indicazioni disponibili dallo svincolo di uscita autostradale A2 - Sant'Onofrio - Vibo Valentia</p>
         </div>
         <div id="map-canvas"></div>
         <div id="map-content-wrapper" class="container pointer-events-none">
@@ -600,9 +599,9 @@
                                     1, 15026 Oviglio AL, Italia</a>
                             </div>
                             <div class="col-md-6">
-                                <h5>Giulia & Laurent</h5>
-                                <p><i class="fa fa-mobile"></i> <a href="tel://+15147108382">+1 514 710 8382</a><br>
-                                    <i class="fa fa-mobile"></i> <a href="tel://+616278764">+33 6 16278764</a></p>
+                                <h5>Domenica e Francesco</h5>
+                                <p><i class="fa fa-mobile"></i> <a href="tel://+39">+39 514 710 8382</a><br>
+                                    <i class="fa fa-mobile"></i> <a href="tel://+39">+39 6 16278764</a></p>
                             </div>
                         </div>
                         <div class="row text-center">
@@ -636,7 +635,7 @@
                             <p data-translatable>
                                 <span>We are glad to see you join us on our big day.</span>
                                 <span>Nous sommes heureux de vous recevoir pour notre grande journée.</span>
-                                <span>Siamo contenti di vedervi per il nostro grande giorno.</span>
+                                <span>Siamo contenti di condividere con voi il nostro grande giorno.</span>
                             </p>
                             <div id="add-to-cal"></div>
                         </div>
