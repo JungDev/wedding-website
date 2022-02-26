@@ -304,7 +304,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                     <div class="wp4">
-                        <h5>Ricevimento <span class="time">5:30PM</span></h5>
+                        <h5>Ricevimento <span class="time">7:30PM</span></h5>
                         <p>
                             <span>Réception au Castello di Oviglio</span>
                             <br>
@@ -321,8 +321,8 @@
             <div class="row section-padding" id="gift">
                 <div class="col-md-4 col-md-offset-4 text-center">
                     <a class="btn btn-fill btn-small btnForceFocus" data-toggle="modal" data-target="#dc-modal">
-                        <i class="fa fa-barcode"></i>  <span data-translatable>Honey moon // Voyage de noce //
-                            Viaggio di nozze</span>
+                        <i class="fa fa-barcode"></i>  
+							<span>Viaggio di nozze</span>
                     </a>
                 </div>
             </div>
@@ -552,17 +552,12 @@
 -->
     <section id="video-bg" class="hidden-sm hidden-xs">
         <div id="bgndVideo" class="player"
-            data-property="{videoURL:'https://youtu.be/ZMXj4Y1XSBw',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:5, stopAt:139, opacity:1}">
+            data-property="{videoURL:'https://youtu.be/tPqzYWch1oc',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:5, stopAt:206, opacity:1}">
         </div>
         <div id="video-content">
-            <h5>Piemonte and its castles...</h5>
-            <p data-translatable>
-                <span>Splendid landscapes, enchanting villages, top-quality wines & famous for the production of
-                    aromatic and sparkling wines</span>
-                <span>Paysages fabuleux, villages magnifiques, vins de top qualité & fameux pour la production de vins
-                    pétillants et aromatiques</span>
-                <span>Splendidi paesaggi, magnifici villaggi, vini di alta qualità & famoso per la produzione di vini
-                    aromatici e frizzanti</span>
+            <h5>Un prezioso angolo di Calabria...</h5>
+            <p>
+                <span>Un suggestivo scenario naturale che domina lo splendido Golfo di Sant'Eufemia</span>
             </p>
         </div>
     </section>

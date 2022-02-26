@@ -187,14 +187,14 @@ $(document).ready(function () {
             title: "Laurent and Giulia's Wedding",
 
             // Event start date
-            start: new Date('Jul 19, 2019 16:00'),
+            start: new Date('Jul 02, 2022 17:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jul 20, 2019 04:00'),
+            end: new Date('Jul 03, 2022 04:00'),
 
             // Event Address
             address: 'Via XXIV Maggio, 1, 15026 Oviglio AL, Italie',
@@ -243,7 +243,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 44.860256, lng: 8.487096};
+    var location = {lat: 38.7502346, lng: 16.2114719};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
