@@ -307,7 +307,7 @@
 
 @media screen and (max-width: 480px) {
     .hero .hero-content {
-        padding-top: 35%;
+        padding-top: 15%;
         display: flex;
         justify-content: center;
     }
