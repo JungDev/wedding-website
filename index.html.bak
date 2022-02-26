@@ -188,7 +188,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>We are getting married! // On se marie ! // Ci sposiamo!</h3>
+                    <h3 data-translatable>We are getting married! // On se marie ! // Ci sposiamo!</h3>
                     <p data-translatable>
                         <span>
                             The date is the <strong>02<sup>th</sup> of July 2022</strong> and we would like you to be a
