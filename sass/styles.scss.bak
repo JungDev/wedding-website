@@ -145,7 +145,7 @@ Animations
 .pulse2 {
   animation-name: pulse2;
   animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
 }
 @keyframes pulse2 {

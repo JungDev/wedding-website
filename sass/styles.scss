@@ -361,7 +361,10 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 59px;
+    border-radius: 50%;
+    display: block;
+    background-color: white;
+    padding: 2px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
