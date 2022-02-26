@@ -301,7 +301,7 @@ Hero
     left: 50%;
   }*/
   .down-arrow a {
-    color: $txt-gold;
+    color: $txt-light;
   }
   h1 {
     color: $txt-gold;
@@ -315,11 +315,13 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 10%;
+    padding-top: 10;
+    display: flex;
+    justify-content: center;
   }
   .hero-content img {
     width: 55%;
-    margin-bottom: 12%;
+    margin-bottom: 2%;
   }
 }
 .navigation {
