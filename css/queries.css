@@ -313,7 +313,7 @@
     }
     
     .hero .hero-content img {
-        width: 130%;
+        width: 180%;
     }
 
     .hero .btn {
@@ -373,7 +373,7 @@
 
 @media screen and (max-width: 320px) {
     .hero .hero-content {
-        padding-top: 130%;
+        padding-top: 50%;
     }
 
     .rsvp {

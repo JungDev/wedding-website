@@ -315,12 +315,12 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 10
+    padding-top: 10;
     display: flex;
     justify-content: center;
   }
   .hero-content img {
-    width: 55%;
+    width: 75%;
     margin-bottom: 2%;
   }
 }
