@@ -133,25 +133,25 @@
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#intro" data-translatable>How we met // Notre recontre // Nostro
-                                        incontro</a></li>
+                                <!--li><a href="#intro" data-translatable>How we met // Notre recontre // Nostro
+                                        incontro</a></li-->
                                 <li><a href="#events" data-translatable>Events // Programme // Eventi</a></li>
-                                <li><a href="#gift">Gifts</a></li>
+                                <li><a href="#gift">Lista Nozze</a></li>
                                 <li><a href="#instagram">Instagram</a></li>
-                                <li><a href="#hotels">Hotels</a></li>
-                                <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Glimpse of the
+                                <!--li><a href="#hotels">Hotels</a></li-->
+                                <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Anteprima
                                         city</a></li>
-                                <li>
+                                <!--li>
                                     <a class="flag-icon flag-icon-it" onclick="i18n.changeLanguage('it');"
                                         data-toggle="tooltip" data-placement="top" title="Sito web in Italiano"></a>
                                     <a class="flag-icon flag-icon-gb" onclick="i18n.changeLanguage('en');"
                                         data-toggle="tooltip" data-placement="top" title="Website in English"></a>
                                     <a class="flag-icon flag-icon-fr" onclick="i18n.changeLanguage('fr');"
                                         data-toggle="tooltip" data-placement="top" title="Site en Francais"></a>
-                                </li>
+                                </li-->
                             </ul>
                             <ul class="member-actions">
-                                <li><a href="#map" class="login" data-translatable>Venue // Emplacement // Luogo</a>
+                                <li><a href="#map" class="login">Location</a>
                                 </li>
                                 <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                             </ul>
