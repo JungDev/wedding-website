@@ -1,4 +1,32 @@
 $(document).ready(function () {
+	
+	/**************** Countdown *******************/
+	const end = new Date("Jul 02, 2022 00:00:00").getTime();
+	//const end = new Date("November 09, 2020 00:00:00").getTime();
+	const dayEl = document.getElementById('days');
+	const hoursEl = document.getElementById('hours');
+	const minutesEl = document.getElementById('minutes');
+	const secondsEl = document.getElementById('seconds');
+	const seconds = 1000;
+	const minutes = seconds * 60;
+	const hours = minutes * 60;
+	const days = hours * 24;
+
+	const bigday_countdown = setInterval(function () {
+	  let now = new Date().getTime();
+	  const difference = end - now;
+	  
+	  if (difference < 0) {
+		clearInterval(bigday_countdown);
+		document.getElementById("done").innerHTML = "We're married! 🎉";
+		return;
+	  }
+		
+	  dayEl.innerText = Math.floor(difference / days);
+	  hoursEl.innerText = Math.floor( (difference % days) / hours );
+	  minutesEl.innerText = Math.floor( (difference % hours) / minutes );
+	  secondsEl.innerText = Math.floor( (difference % minutes) / seconds );  
+	}, seconds);
 
     /***************** Waypoints ******************/
 
@@ -147,7 +175,7 @@ $(document).ready(function () {
 
     for (var i = 0; i < share_bar.length; i++) {
         var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
-            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=WeeBoo&amp;hashtags=LaurentAndGiulia&amp;count=horizontal"' +
+            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=WeeBoo&amp;hashtags=DF&amp;count=horizontal"' +
             'style="width:105px; height:21px;">' +
             '</iframe>' +
 
