@@ -295,7 +295,7 @@
     <section class="events section-padding" id="events">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4 col-md-offset-4 text-center">
                     <h3 class="header" data-translatable>Events // Programme // Eventi</h3>
                 </div>
             </div>
@@ -304,10 +304,10 @@
                     <div class="wp3">
                         <h5>Cerimonia <span class="time">5:30PM</span></h5>
                         <p>
-                            <span>Cérémonie à l'Eglise d'Oviglio</span>
+							<span>Cerimonia al Popilia Country Resort</span>
                             <br>
-                            <strong>SS. Felice e Agata </strong><a class="aAsp" href="https://goo.gl/maps/o6wwUDHG22z"
-                                target="_blank">15026 Oviglio Alexandrie, Italy</a>
+                            <strong>Popilia Country Resort </strong><a class="aAsp" href="https://goo.gl/maps/vXysEfUA9oNgftF86"
+                                target="_blank">loc. Cutà, 89843 Maierato (VV), Italia</a>
                         </p>
                     </div>
                 </div>
@@ -315,12 +315,17 @@
                     <div class="wp4">
                         <h5>Ricevimento <span class="time">7:30PM</span></h5>
                         <p>
-                            <span>Réception au Castello di Oviglio</span>
+                            <span>Ricevimento al Popilia Country Resort</span>
                             <br>
-                            <strong>Castello di Oviglio </strong><a class="aAsp" href="https://goo.gl/maps/U5mEgU9yLbk"
-                                target="_blank">Via XXIV Maggio, 1, 15026 Oviglio AL, Italy</a>
+                            <strong>Popilia Country Resort </strong><a class="aAsp" href="https://goo.gl/maps/vXysEfUA9oNgftF86"
+                                target="_blank">loc. Cutà, 89843 Maierato (VV), Italia</a>
                         </p>
                     </div>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h3 class="header" data-translatable>Lista Nozze</h3>
                 </div>
             </div>
             <div class="row">
@@ -378,13 +383,6 @@
                                     Intestato a: <strong>Francesco Scarlato</strong></p>
                             </div>
                         </div>
-                        <p data-translatable>
-                            <span></span>
-                            <span>
-                                <strong>Sur place</strong><br>
-                                Une petite urne sera a disposition le jour J</span>
-                            <span></span>
-                        </p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <img src="img/gift/chichen-itza.jpg" style="width: 80%;">
