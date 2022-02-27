@@ -261,6 +261,17 @@
 }
 
 @media screen and (max-width: 640px) {
+	.hero {
+	  min-height: 750px;
+	  background: url('../img/sfondo640.jpg') center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  position: relative;
+	}
+	
+	
     .hero .hero-content {
         padding-top: 20%;
         display: flex;
