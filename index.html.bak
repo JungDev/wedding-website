@@ -207,22 +207,23 @@
                             Les faire-parts seront expédiés prochainement.
                         </span>
                         <span>
-                            Il gran giorno &egrave; il <strong>02 Luglio 2022</strong> e vorremmo avervi con noi.<br>
+                            Il gran giorno &egrave; sabato <strong>02 Luglio 2022</strong> e vorremmo avervi con noi.<br>
                         </span>
                     </p>
                 </div>
-				<div class="row">	
+				<!-- div class="share-bar"></div-->
+            </div>
+			<div class="row">	
 					<div class="col-sm-4 hidden-xs"></div>
 					<div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                        class="btn btn-accent btn-large rsvp-btn">CONFERMA</a></div>
+                        class="btn btn-accent btn-large rsvp-btn">CONFERMA PRESENZA</a></div>
 					<div class="col-sm-4 hidden-xs"></div>
-                    <div class="share-bar"></div>
-				</div>	
-            </div>
+                    
+			</div>	
         </div>
     </section>
 
-    <section id="intro">
+    <!-- section id="intro">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -293,7 +294,7 @@
                         class="wp9"></div>
             </div>
         </div>
-    </section>
+    </section -->
 
     <section class="events section-padding" id="events">
         <div class="container">
