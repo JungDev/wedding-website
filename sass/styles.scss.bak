@@ -997,7 +997,7 @@ Countdown
   margin-left: -35px;
 }
 .countdown ul li {
-    background: gold;
+    background: $txt-gold;
     color: white !important;
     font-weight: 600;
     min-width: 25%;
