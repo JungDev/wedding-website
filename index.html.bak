@@ -139,8 +139,7 @@
                                 <li><a href="#gift">Lista Nozze</a></li>
                                 <li><a href="#instagram">Instagram</a></li>
                                 <!--li><a href="#hotels">Hotels</a></li-->
-                                <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Anteprima
-                                        city</a></li>
+                                <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Anteprima Location</a></li>
                                 <!--li>
                                     <a class="flag-icon flag-icon-it" onclick="i18n.changeLanguage('it');"
                                         data-toggle="tooltip" data-placement="top" title="Sito web in Italiano"></a>
@@ -169,7 +168,7 @@
                     <div class="hero-content text-center">
                         <!-- h1>Domenica &amp; Francesco</h1 -->
                         <img src="img/partecipazione.png" >
-                        <!--<p class="intro">Laurent & Giulia are getting hitched!</p>-->
+
                         <!--a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a -->
                     </div>
                 </div>
