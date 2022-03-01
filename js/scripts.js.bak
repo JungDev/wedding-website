@@ -239,7 +239,7 @@ $(document).ready(function () {
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
 		grecaptcha.ready(function() {
-			grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+			grecaptcha.execute('6LeQBaoeAAAAACAaUiNY1rZGXg5ZNUCj9KkVr_g8', {action: 'submit'}).then(function(token) {
 			var data = $(this).serialize();
 
 			$('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
