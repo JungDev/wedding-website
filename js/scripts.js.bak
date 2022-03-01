@@ -268,7 +268,7 @@ $(document).ready(function () {
 });
 
 /********************** Extras **********************/
-
+/*
 // Google map
 function initMap() {
     var location = {lat: 38.7502346, lng: 16.2114719};
@@ -297,6 +297,7 @@ function initBBSRMap() {
         map: map
     });
 }
+*/
 
 // alert_markup
 function alert_markup(alert_type, msg) {
