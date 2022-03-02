@@ -212,23 +212,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Laurent and Giulia's Wedding",
+            title: "Matrimonio Domenica e Francesco",
 
             // Event start date
-            start: new Date('Jul 02, 2022 17:00'),
+            start: new Date('Jul 02, 2022 17:30'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jul 03, 2022 04:00'),
+            end: new Date('Jul 03, 2022 00:00'),
 
             // Event Address
-            address: 'Via XXIV Maggio, 1, 15026 Oviglio AL, Italie',
+            address: 'Popilia Country Resort, Contrada Baracca (loc. Cutà, 89843 Maierato VV, Italia',
 
             // Event Description
-            description: "We can't wait to spend this day with you. For any questions or issues don't hesitate to contact us."
+            description: "Vi aspettiamo. Per ogni domanda o necessità non esitate a contattarci."
         }
     });
 
@@ -242,7 +242,7 @@ $(document).ready(function () {
 			grecaptcha.execute('6LeQBaoeAAAAACAaUiNY1rZGXg5ZNUCj9KkVr_g8', {action: 'submit'}).then(function(token) {
 				$('#alert-wrapper').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 				var data = $(this).serialize();
-
+                console.log(data);
 				$('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
 				// if (MD5($('#invite_code').val()) !== '364274707420480fa0e30abb8397ac68'
