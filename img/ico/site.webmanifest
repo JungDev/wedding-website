@@ -1,0 +1,19 @@
+{
+    "name": "df-wedding.it",
+    "short_name": "df-wedding.it",
+    "icons": [
+        {
+            "src": "/img/ico/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/ico/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

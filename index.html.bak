@@ -525,7 +525,7 @@
                         <span>We would greatly appreciate if you could RSVP before the <strong>1<sup>st</sup> of
                                 June</strong></span>
                         <span>Merci de nous faire parvenir votre réponse avant le <strong>1<sup>er</sup> Juin</strong></span>
-                        <span>Vi saremmo grati se poteste rispondere entro il <strong>1 Giugno</strong></span>
+                        <span>Vi saremmo grati se poteste rispondere entro il <strong>31 maggio</strong></span>
                     </p>
                     <form id="rsvp-form" class="rsvp-form" action method="POST">
                         <div class="row">
@@ -570,6 +570,7 @@
                             <span>Oui, c'est moi !</span>
                             <span>Si, sono io !</span>
                         </button>
+						
                     </form>
                 </div>
             </div>
@@ -586,7 +587,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeQBaoeAAAAACAaUiNY1rZGXg5ZNUCj9KkVr_g8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
