@@ -240,15 +240,16 @@ $(document).ready(function () {
         e.preventDefault();
 		grecaptcha.ready(function() {
 			grecaptcha.execute('6LeQBaoeAAAAACAaUiNY1rZGXg5ZNUCj9KkVr_g8', {action: 'submit'}).then(function(token) {
-			var data = $(this).serialize();
+				$('#alert-wrapper').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+				var data = $(this).serialize();
 
-			$('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+				$('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-			// if (MD5($('#invite_code').val()) !== '364274707420480fa0e30abb8397ac68'
-			//     && MD5($('#invite_code').val()) !== '50c25416cd81e22ea32960a8b83b3455'
-			//     && MD5($('#invite_code').val()) !== 'c6e63ad45b4a45a081dbaae07d4b0d0b') {
-			//     $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
-			// } else {
+				// if (MD5($('#invite_code').val()) !== '364274707420480fa0e30abb8397ac68'
+				//     && MD5($('#invite_code').val()) !== '50c25416cd81e22ea32960a8b83b3455'
+				//     && MD5($('#invite_code').val()) !== 'c6e63ad45b4a45a081dbaae07d4b0d0b') {
+				//     $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
+				// } else {
 				$.post('https://script.google.com/macros/s/AKfycbyyKaY37fZ8FPN5wBnvR_ZrUIjKde3pXkdIyucw/exec', data)
 				//$.post('https://script.google.com/macros/s/AKfycbwP3ztjDXCXAwuUYtIccxEDe3aDaJYUtWMJHRwYGPZIZCxcSF591jVsgA7qjawbTaeU/exec', data)
 					.done(function (data) {
