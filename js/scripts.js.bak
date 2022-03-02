@@ -242,7 +242,7 @@ $(document).ready(function () {
 			grecaptcha.execute('6LeQBaoeAAAAACAaUiNY1rZGXg5ZNUCj9KkVr_g8', {action: 'submit'}).then(function(token) {
 				$('#alert-wrapper').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 				var data = $(this).serialize();
-
+                console.log(data);
 				$('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
 				// if (MD5($('#invite_code').val()) !== '364274707420480fa0e30abb8397ac68'
