@@ -18,8 +18,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="Domenica & Francesco's wedding'">
-    <meta property="og:description" content="You are invited to our big day.">
+    <meta property="og:description" content="Siete invitati al nostro matrimonio">
     <meta property="og:type" content="website">
+	
+	<!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+	
+	<link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="modules/flag-icon/css/flag-icon.min.css" type="text/css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/ico/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/img/ico/favicon-32x32.png">
