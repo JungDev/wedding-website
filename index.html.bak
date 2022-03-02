@@ -405,9 +405,9 @@
                             </div>
                             <div class="col-md-6">
                                 <h5>Francesco</h5>
-                                <p><i class="fa fa-mobile"></i> <a href="tel://+393920031029">+39 392 003 1029</a><br>
+                                <p><i class="fa fa-mobile"></i><i class="fa fa-telegram"></i> <a href="tel://+393920031029">+39 392 003 1029</a></p>
 								<h5>Domenica</h5>
-                                    <i class="fa fa-mobile"></i> <a href="tel://+393288908667">+39 328 890 8667</a></p>
+                                <p><i class="fa fa-mobile"></i><i class="fa fa-whatsapp"></i> <a href="tel://+393288908667">+39 328 890 8667</a></p>
                             </div>
                         </div>
                         <div class="row text-center">
