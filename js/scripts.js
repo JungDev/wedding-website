@@ -238,14 +238,14 @@ $(document).ready(function () {
     /********************** RSVP **********************/
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
-		
-		
+
 		//var data = $(this).serialize();
-        
-		
+
 		grecaptcha.ready(function() {
 			grecaptcha.execute('6LeQBaoeAAAAACAaUiNY1rZGXg5ZNUCj9KkVr_g8', {action: 'submit'}).then(function(token) {
-				$('#alert-wrapper').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+				//$('#alert-wrapper').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+				var data = objectifyForm ($('#rsvp-form').serializeArray()); 				
+				data['g-recaptcha-response'] = token;
 				
 				$('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 				
@@ -254,8 +254,9 @@ $(document).ready(function () {
 				//     && MD5($('#invite_code').val()) !== 'c6e63ad45b4a45a081dbaae07d4b0d0b') {
 				//     $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
 				// } else {
-					
-				var data = $('#rsvp-form').serialize();
+                
+				
+				//var data = $('#rsvp-form').serialize();
                 console.log(data);				
 				$.post('https://script.google.com/macros/s/AKfycbyyKaY37fZ8FPN5wBnvR_ZrUIjKde3pXkdIyucw/exec', data)
 				//$.post('https://script.google.com/macros/s/AKfycbwP3ztjDXCXAwuUYtIccxEDe3aDaJYUtWMJHRwYGPZIZCxcSF591jVsgA7qjawbTaeU/exec', data)
@@ -314,6 +315,16 @@ function initBBSRMap() {
 // alert_markup
 function alert_markup(alert_type, msg) {
     return '<div class="alert alert-' + alert_type + '" role="alert">' + msg + '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button></div>';
+}
+
+// convert serializeArray to JSON
+function objectifyForm(formArray) {
+    //serialize data function
+    var returnArray = {};
+    for (var i = 0; i < formArray.length; i++){
+        returnArray[formArray[i]['name']] = formArray[i]['value'];
+    }
+    return returnArray;
 }
 
 // MD5 Encoding
