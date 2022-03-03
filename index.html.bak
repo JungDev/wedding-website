@@ -520,12 +520,12 @@
 						<div class="row">
 							<div class="col-md-6 col-sm-6">
 								<div class="form-input-group">
-									<i class="fas fa-baby-carriage"></i><input type="number" name="bambini" class="" min="0" max="8" placeholder="di cui menù bambini" required="">
+									<i class="fas fa-baby-carriage"></i><input type="number" name="bambini" class="" min="0" max="8" placeholder="di cui menù bambini">
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6">
 								<div class="form-input-group">
-									<i class="fas fa-carrot"></i><input type="number" name="vegano" class="" min="0" max="8" placeholder="di cui menù vegetariano/vegano" required="">
+									<i class="fas fa-carrot"></i><input type="number" name="vegano" class="" min="0" max="8" placeholder="di cui menù vegetariano/vegano">
 								</div>
 							</div>
 						</div>	
@@ -539,7 +539,7 @@
 						<div class="row">	
 							<div class="col-md-12 col-sm-6">
 								<div class="form-input-group">
-									<i class="fas fa-comment-dots"></i><input name="note" class="" placeholder="Altre note utili">
+									<i class="fas fa-comment-dots"></i><input name="note" class="" placeholder="Commenti, info aggiuntive">
 								</div>
 							</div>
 						</div>
