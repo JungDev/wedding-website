@@ -337,7 +337,7 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
-  height: 100px;
+  height: auto;
 }
 .fixed {
   position: fixed;

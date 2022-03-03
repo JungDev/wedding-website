@@ -99,11 +99,11 @@
                             <ul class="primary-nav">
                                 <!--li><a href="#intro" data-translatable>How we met // Notre recontre // Nostro
                                         incontro</a></li-->
-                                <li><a href="#events" data-translatable>Events // Programme // Eventi</a></li>
+                                <li><a href="#events">Eventi</a></li>
                                 <li><a href="#gift">Lista Nozze</a></li>
                                 <li><a href="#instagram">Instagram</a></li>
                                 <!--li><a href="#hotels">Hotels</a></li-->
-                                <li class="hidden-sm hidden-xs"><a href="#video-bg" data-translatable>Anteprima Location</a></li>
+                                <li class="hidden-sm hidden-xs"><a href="#video-bg">Anteprima Location</a></li>
                                 <!--li>
                                     <a class="flag-icon flag-icon-it" onclick="i18n.changeLanguage('it');"
                                         data-toggle="tooltip" data-placement="top" title="Sito web in Italiano"></a>
@@ -137,18 +137,6 @@
                     </div>
                 </div>
             </div>
-			
-            <div class="row">
-				<div class="countdown">  
-					<p id="done"></p>
-					<ul>
-						<li><span id="days">0</span> Giorni</li>
-						<li><span id="hours">0</span> Ore</li>
-						<li><span id="minutes">0</span> Minuti</li>
-						<li><span id="seconds">0</span> Secondi</li>
-					</ul>
-				</div>
-            </div>
         </div>
     </section>
     <section>
@@ -158,119 +146,44 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 data-translatable>We are getting married! // On se marie ! // Ci sposiamo!</h3>
-                    <p data-translatable>
-                        <span>
-                            The date is the <strong>02<sup>th</sup> of July 2022</strong> and we would like you to be a
-                            part of it.<br>
-                            Official invite will follow.
-                        </span>
-                        <span>
-                            La date est le <strong>02 Juillet 2019</strong> et nous souhaiterions partager ce moment
-                            avec vous.<br>
-                            Les faire-parts seront expédiés prochainement.
-                        </span>
-                        <span>
-                            Il gran giorno &egrave; sabato <strong>02 Luglio 2022</strong> e vorremmo avervi con noi.<br>
-                        </span>
-                    </p>
+                    <h3>Al matrimonio mancano :</h3>
+                    <div class="row">
+				<div class="countdown">  
+					<p id="done"></p>
+					<ul>
+						<li><span id="days">120</span> Giorni</li>
+						<li><span id="hours">13</span> Ore</li>
+						<li><span id="minutes">7</span> Minuti</li>
+						<li><span id="seconds">34</span> Secondi</li>
+					</ul>
+				</div>
+            </div>
+                    <p><span>
+                            Il gran giorno è sabato <strong>02 Luglio 2022</strong> e vorremmo avervi con noi.<br>
+                        </span></p>
                 </div>
 				<!-- div class="share-bar"></div-->
             </div>
-			<div class="row">	
+			<div class="row" style="margin-bottom: 15px;">	
 					<div class="col-sm-4"></div>
-					<div class="col-sm-4 text-center"><a href="#rsvp"
-                        class="btn btn-accent btn-large rsvp-btn">CONFERMA PRESENZA</a></div>
+					<div class="col-sm-4 text-center"><a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">CONFERMA PRESENZA</a></div>
 					<div class="col-sm-4"></div>
                     
 			</div>	
         </div>
     </section>
 
-    <!-- section id="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3 class="header" data-translatable>How we met // Notre rencontre // Il nostro incontro</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div>
-                <div class="col-md-6">
-                    <p data-translatable>
-                        <span>
-                            Our beautiful story began in May 2016 in Montreal.
-                            Our first encounter was at the YMCA school as we were classmates. With each passing day, we
-                            became inseparable and very good friends.
-                            As summer approached, we realized that what was happening between us was magic and it wasn’t
-                            just a simple friendship.<br>
-                            We had our challenges at the beginning and life wasn’t always perfect. We both have strong
-                            characters and we were communicating in many different languages!
-                            Time and patience allowed us to slowly understand each other until we created our own
-                            beautiful language!
-                            At home we speak French, English and Italian in a way that just us can understand, and this
-                            is what we like!<br>
-                            We are extremely excited about the wedding!
-                            The fact that all our family and friends will join us from many different parts of the world
-                            will make it memorable!<br>
-                            Big hug from Canada!
-                        </span>
-                        <span>
-                            Notre belle histoire a commencé en mai 2016 à Montréal.
-                            Nous étions camarade de classe dans une école d'Anglais. Jour après jour, nous sommes
-                            devenus de très bons amis.
-                            À l’approche de l’été, nous avons découvert que ce qui se passait entre nous n’était pas
-                            seulement de l'amitié.<br>
-                            Ce n’était pas facile au début, deux caractères forts et de nombreux problèmes de
-                            communications!
-                            Au fil du temps, nous avons commencé à nous comprendre chaque jour un peu plus et nous avons
-                            finalement créé notre propre langage!
-                            À la maison, nous parlons français, anglais et italien d’une manière que seul nous pouvons
-                            comprendre, et c’est ce que nous aimons!<br>
-                            Nous sommes très excités pour le mariage!
-                            La distance entre la famille et les amis rend le tout encore plus excitant! <br>
-                            Gros bisous du Canada!
-                        </span>
-                        <span>
-                            La nostra storia è iniziata nel Maggio 2016.
-                            Eravamo compagni di classe alla YMCA School di Montreal. Tutti e due in vacanza, conoscevamo
-                            gente nuova da tutte le parti del mondo, era un bel periodo!<br>
-                            Giorno dopo giorno, diventavamo sempre piu’ amici, fino al punto di domandarsi se eravamo
-                            davvero solo amici!
-                            Siamo subito andati a vivere insieme, e, dobbiamo dire, all’inizio non e’ stato facile!
-                            Due forti personalita’ e troppe lingue diverse sotto lo stesso tetto!!!​
-                            Col passare del tempo abbiamo iniziato a capirci, ogni giorno un po’ di piu’, e, alla fine,
-                            abbiamo creato la nostra lingua!
-                            A casa parliamo Francese, Inglese e anche Italiano, in un modo che solo noi possiamo capire,
-                            ed e’ questo quello che ci piace!​​<br>
-                            Saremo felici di vedervi tutti al nostro matrimonio e non vediamo l’ora, perché la distanza
-                            da famiglia e amici lo rende per noi ancora più importante.<br>
-                            Un abbraccio dal Canada a tutti!
-                        </span>
-                    </p>
-                </div>
-                <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.png" class="wp2"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg"
-                        class="wp8"></div>
-                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.png"
-                        class="wp9"></div>
-            </div>
-        </div>
-    </section -->
-
     <section class="events section-padding" id="events">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center">
-                    <h3 class="header" data-translatable>Events // Programme // Eventi</h3>
+                    <h3 class="header">Eventi</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                     <div class="wp3">
-                        <h5>Cerimonia <span class="time">5:30PM</span></h5>
+                        <h5>Cerimonia <span class="time">17:30</span></h5>
                         <p>
 							<span>Cerimonia al Popilia Country Resort</span>
                             <br>
@@ -281,9 +194,9 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                     <div class="wp4">
-                        <h5>Ricevimento <span class="time">7:30PM</span></h5>
+                        <h5>Ricevimento <span class="time">19:30</span></h5>
                         <p>
-                            <span>Ricevimento al Popilia Country Resort</span>
+                            <span>Ricevimento nella stessa location della cerimonia</span>
                             <br>
                             <strong>Popilia Country Resort </strong><a class="aAsp" href="https://goo.gl/maps/vXysEfUA9oNgftF86"
                                 target="_blank">loc. Cutà, 89843 Maierato (VV), Italia</a>
@@ -297,7 +210,7 @@
             </div>
 			<div class="row" id="gift">
                 <div class="col-md-4 col-md-offset-4 text-center">
-                    <h3 class="header" data-translatable>Lista Nozze</h3>
+                    <h3 class="header">Lista Nozze</h3>
                 </div>
             </div>
             <div class="row section-padding">
@@ -315,33 +228,24 @@
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>×</span>
                         </button>
-                        <h3 class="text-center section-padding" data-translatable>Ugh... where is the wedding list ???
-                            // Oops... Ou est la liste de mariage ??? // Oops... Dove è la lista di nozze ? </h3>
-                        <p data-translatable>
-                            <span>
-                                We have been living together for almost 3 years, therefore, as you can guess, we already
-                                have everything we need!<br>
-                                Instead of selecting a gift from a classic bridal registry, we would welcome a
-                                contribution to make our dream honeymoon become a reality!<br>
-                                Our Honeymoon will be idyllic as we plan to spend one week exploring and the other
-                                relaxing on the beach!
-                            </span>
-                            <span>
-                                Nous vivons ensemble depuis près de 3 ans et, comme vous pouvez le deviner, nous avons
-                                déjà tout!<br>
-                                Au lieu d’une liste de mariage classique, vous pouvez contribuer à faire de notre lune
-                                de miel de rêve une réalité!<br>
-                                Nous avons choisi de passer une semaine à explorer et une semaine à nous détendre sur la
-                                plage!
-                            </span>
+                        <h3 class="text-center section-padding"> Oops... Dove è la lista di nozze ? </h3>
+                        <p>
                             <span>
                                 Viviamo insieme gi&agrave; da cinque anni, e, come potete immaginare, abbiamo già tutto il
-                                necessario per la casa!<br>
-                                Al posto della classica lista di nozze, potrete invece contribuire a rendere la nostra luna di miele indimenticabile!<br>
-                                Abbiamo scelto di dedicare una settimana all’esplorazione e una al relax su una delle
-                                spiagge più belle al mondo!
+                                necessario per la casa.<br>
+                                Al posto della classica lista di nozze, potrete invece contribuire a rendere la nostra luna di miele indimenticabile!!!<br>
+                                Abbiamo scelto di dedicare una settimana all’esplorazione ed una al relax su una delle
+                                spiagge più belle al mondo...
                             </span>
                         </p>
+						<div class="row">
+                            <div class="col-lg-6">
+                                <img src="img/gift/chichen-itza.jpg">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="img/gift/riviera-maya.jpg">
+                            </div>
+                        </div>
                         <h5>Per participare</h5>
                         <div class="row">
                             <div class="col-xs-12">
@@ -351,14 +255,7 @@
                                     Intestato a: <strong>Francesco Scarlato</strong></p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="img/gift/chichen-itza.jpg">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="img/gift/riviera-maya.jpg">
-                            </div>
-                        </div>
+                        
 
                     </div>
                 </div><!-- /.modal-content -->
@@ -371,10 +268,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 data-translatable>A picture is worth a thousand words! // Une photo vaut des milliers de mots !
-                        // Una foto vale un milione di parole !</h3>
+                    <h3>Una foto vale un milione di parole !</h3>
                     <p>
-                        Capture the moment, tag your photos with the hashtag <a
+                        Cattura il momento, e tagga le tue foto con hashtag <a
                             href="https://www.instagram.com/explore/tags/dandf/"
                             target="_blank">#dodaefra</a>
                     </p>
@@ -423,7 +319,7 @@
                 <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
                     <div class="text-center">
                         <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                            <i class="fa fa-info-circle"></i>   Informations
+                            <i class="fa fa-info-circle"></i>   Informazioni
                         </div>
                     </div>
                     <div id="map-content" class="pointer-events-auto">
@@ -483,11 +379,9 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>×</span>
                         </button>
                         <div class="section-padding">
-                            <h3 data-translatable>Thank you! // Merci ! // Grazie !</h3>
-                            <p data-translatable>
-                                <span>We are glad to see you join us on our big day.</span>
-                                <span>Nous sommes heureux de vous recevoir pour notre grande journée.</span>
-                                <span>Siamo contenti di condividere con voi il nostro grande giorno.</span>
+                            <h3>Grazie !</h3>
+                            <p>
+                                <span>Siamo felici che condividiate con noi il nostro grande giorno.</span>
                             </p>
                             <div id="add-to-cal"></div>
                         </div>
@@ -500,10 +394,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <h3>RSVP</h3>
-                    <p data-translatable>
-                        <span>We would greatly appreciate if you could RSVP before the <strong>1<sup>st</sup> of
-                                June</strong></span>
-                        <span>Merci de nous faire parvenir votre réponse avant le <strong>1<sup>er</sup> Juin</strong></span>
+                    <p>
                         <span>Vi saremmo grati se poteste rispondere entro il <strong>31 maggio</strong></span>
                     </p>
                     <form id="rsvp-form" class="rsvp-form" action="" method="POST">
@@ -535,19 +426,19 @@
 						<div class="row">
 							<div class="col-md-6 col-sm-6">
 								<div class="form-input-group">
-									<i class="fas fa-baby-carriage"></i><input type="number" name="bambini" class="" min="0" max="8" placeholder="di cui menù bambini">
+									<i class="fas fa-baby-carriage"></i><input type="number" name="bambini" class="" min="0" max="8" placeholder="n&deg; menù bambini">
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6">
 								<div class="form-input-group">
-									<i class="fas fa-carrot"></i><input type="number" name="vegano" class="" min="0" max="8" placeholder="di cui menù vegetariano/vegano">
+									<i class="fas fa-carrot"></i><input type="number" name="vegano" class="" min="0" max="8" placeholder="n&deg; menù vegetariano/vegano">
 								</div>
 							</div>
 						</div>	
 						<div class="row">	
 							<div class="col-md-12 col-sm-6">
 								<div class="form-input-group">
-									<i class="fas fa-allergies"></i><input name="allergie" class="" placeholder="Intolleranze e/o allergie alimentari">
+									<i class="fas fa-allergies"></i><input name="allergie" class="" placeholder="Intolleranze o allergie alimentari">
 								</div>
 							</div>
 						</div>
@@ -561,7 +452,7 @@
 						<div class="row">
 							<div class="col-md-12" id="alert-wrapper"></div>
 						</div>
-						<button class="btn-fill rsvp-btn" data-translatable="" data-dom-i18n-id="i18n1646233476199995.3877093035901"><span>Invia</span></button>
+						<button class="btn-fill rsvp-btn"><span>Invia</span></button>
 					</form>
                 </div>
             </div>
