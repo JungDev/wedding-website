@@ -265,7 +265,7 @@ $(document).ready(function () {
 						if (data.result === "error") {
 							$('#alert-wrapper').html(alert_markup('danger', data.message));
 						} else {
-							var rsvp = JSON.parse(temp1.data);
+							var rsvp = JSON.parse(data.data);
 							if(rsvp.partecipa[0]=='si'){
 								$('#alert-wrapper').html('');
 								$('#rsvp-modal').modal('show');

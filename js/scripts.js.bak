@@ -265,8 +265,14 @@ $(document).ready(function () {
 						if (data.result === "error") {
 							$('#alert-wrapper').html(alert_markup('danger', data.message));
 						} else {
-							$('#alert-wrapper').html('');
-							$('#rsvp-modal').modal('show');
+							var rsvp = JSON.parse(temp1.data);
+							if(rsvp.partecipa[0]=='si'){
+								$('#alert-wrapper').html('');
+								$('#rsvp-modal').modal('show');
+							}else{
+								$('#alert-wrapper').html('');
+								$('#rsvp-modal-no').modal('show');
+							}
 						}
 					})
 					.fail(function (data) {
