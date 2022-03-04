@@ -46,6 +46,7 @@ P {
 }
 .aAsp {
   @extend p;
+  font-size: 16px;
 }
 a:hover, a:focus {
   color: $accent-color-hover;
